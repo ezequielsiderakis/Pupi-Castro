@@ -30,7 +30,7 @@ max-width:600px;
     text-align: center; 
     display: flex;
     position: relative;
-    color: Black;
+    color: white;
   }
 
 .logo{
@@ -40,8 +40,8 @@ max-width:600px;
   
   @keyframes slidein {
     from {
-      margin-left: 120%;
-      width: 250%
+      margin-left: 800%;
+      width: 700%
     }
   
     to {
