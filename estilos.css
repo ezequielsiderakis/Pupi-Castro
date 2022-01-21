@@ -32,3 +32,20 @@ max-width:600px;
     position: relative;
     color: Black;
   }
+
+.logo{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 120%;
+      width: 250%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
